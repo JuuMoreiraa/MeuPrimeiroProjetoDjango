@@ -1,7 +1,7 @@
 from tkinter import CASCADE
 from django.db import models
 
-# Create your modelos aqui
+# Crie seus modelos aqui
 class Departamento(models.Model):
     nome = models.CharField(max_length=20)
 
