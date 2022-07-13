@@ -7,6 +7,6 @@ class FuncionarioAdmin(admin.modeladmin):
     list_filter = ['Departamento', 'Cargo']
 
 
-# Registre seus modelos aqui
+# Registre seus modelos aqu
 admin.site.register(Funcionario, FuncionarioAdmin)
 admin.site.register(Departamento)
